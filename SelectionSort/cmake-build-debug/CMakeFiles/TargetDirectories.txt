@@ -1,3 +1,0 @@
-C:/Programming/Cpp/github.com/CppLab/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir
-C:/Programming/Cpp/github.com/CppLab/SelectionSort/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Programming/Cpp/github.com/CppLab/SelectionSort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
