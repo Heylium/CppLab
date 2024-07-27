@@ -28,6 +28,28 @@ namespace SortTestHelper {
         return arr;
     }
 
+    /**
+     * 生成一个近乎有序的数值
+     * @param n
+     * @param swapTimes
+     * @return
+     */
+    int *generateNearlyOrderedArray(int n, int swapTimes) {
+        int *arr = new int[n];
+        for (int i = 0; i < n; ++i) {
+            arr[i] = i;
+        }
+
+        srand(time(NULL));
+        for (int i = 0; i < swapTimes; ++i) {
+            int posx = rand()%n;
+            int posy = rand()%n;
+            swap(arr[posx], arr[posy]);
+        }
+
+        return arr;
+    }
+
     // 拷贝整型数组a中的所有元素到一个新的数组, 并返回新的数组
     int *copyIntArray(int a[], int n){
 
