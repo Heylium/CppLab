@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(MergeSort main.cpp
         SortTestHelper.h
-        InsertionSort.h)
+        InsertionSort.h
+        MergeSort.h)
